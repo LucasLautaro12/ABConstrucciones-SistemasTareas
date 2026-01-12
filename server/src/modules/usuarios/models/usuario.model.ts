@@ -4,7 +4,7 @@ import { UsuarioEstado } from "../enums/usuario-estado.enum";
 @Entity()
 export class UsuarioModel {
     @PrimaryGeneratedColumn()
-    id: number;
+    id_usuario: number;
 
     @Column()
     nombre: string;

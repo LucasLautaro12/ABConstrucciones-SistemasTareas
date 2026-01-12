@@ -4,7 +4,7 @@ import { UsuarioModel } from "../models/usuario.model";
 export class UsuarioMapper {
     static toModel(entity: UsuarioModel): UsuarioEntity {
         return new UsuarioEntity({
-            id: entity.id,
+            id_usuario: entity.id_usuario,
             nombre: entity.nombre,
             apellido: entity.apellido,  
             email: entity.email,

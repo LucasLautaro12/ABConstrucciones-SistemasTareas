@@ -1,7 +1,7 @@
 import { UsuarioEstado } from "../enums/usuario-estado.enum";
 
 export class UsuarioEntity {
-    id: number;
+    id_usuario: number;
     nombre: string;
     apellido: string;
     email: string;
